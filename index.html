@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi's Gym</title>
+
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<style>
+    body {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(back.jpg);
+        background-size: 1280px;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 11px;
+        left: 11px;
+        /* border: 2px solid red; */
+
+    }
+
+    .left img {
+        width: 65px;
+        /* filter: invert(100%); */
+    }
+
+    .mid {
+        display: block;
+        margin: 8px auto;
+        width: 58%;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        /* border: 2px solid green; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 13px 43px;
+    }
+
+    .navbar li a:hover {
+
+        color: rgba(255, 142, 4, 0.972);
+    }
+
+    .left div {
+        /* font-family: 'Rubik', sans-serif; */
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .btn {
+        font-family: 'Rubik', sans-serif;
+        margin: 12px 5px;
+        padding: 4px 12px;
+        color: azure;
+        background-color: #dc000000;
+        border: 1px solid whitesmoke;
+        border-radius: 16px;
+        font-size: 13px;
+        cursor: pointer;
+
+    }
+
+    .btn1 {
+        font-family: 'Rubik', sans-serif;
+        margin: 9px 4px;
+        padding: 6px 15px;
+        color: azure;
+        background-color: brown;
+        border: 1px solid red;
+        border-radius: 16px;
+        font-size: 13px;
+        cursor: pointer;
+        width: 86px;
+
+    }
+
+    .btn:hover {
+        color: black;
+        background-color: rgb(208, 132, 40);
+    }
+
+    .btn1:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(128, 12, 12);
+    }
+
+    .container {
+        border: 1px solid gray;
+        margin: 106px 130px;
+        padding: 100px 33px;
+        width: 30%;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 20px;
+
+    }
+
+    .form-group input {
+        display: block;
+        width: 53%;
+        margin: 10px 75px;
+        padding: 2px 2px;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <a href="http://127.0.0.1:5500/First%20Project%201/index.html"><img src="logo.jpg" alt=""></a>
+            <div>
+                Fitness
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="http://127.0.0.1:5500/First%20Project%201/index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm">Fitness
+                        Calculator</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+
+
+    </header>
+    <div class="container">
+        <h3>Join the best Gym of Dhaka now!</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your Height">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your Weight">
+            </div>
+            <button class="btn1">Submit</button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
